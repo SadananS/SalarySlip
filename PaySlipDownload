@@ -1,0 +1,60 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SalarySlipDownload.aspx.cs" Inherits="PAYSLIP.SalarySlipDownload" %>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/emp.css" rel="stylesheet">
+
+
+    <link href="Content/empDetail.css" rel="stylesheet" />
+
+    <script src="Scripts/Empolyeemst.js"></script>
+    <script src="Scripts/bootstrapemp.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+    <h1 class="well">Salary Slip Download</h1>
+	<div class="col-lg-12 well">
+	<div class="row">
+				</div>
+					<div class="col-sm-12">
+						<div class="row">
+                            	<div class="col-sm-6 form-group">
+								<label>Month</label><asp:DropDownList ID="ddlMonth" runat="server">
+                                    </asp:DropDownList>
+								<input type="text" placeholder="Enter EmpID" class="form-control">
+							</div>
+                            	<div class="col-sm-6 form-group">
+								<label> Year</label><asp:DropDownList ID="DropDownList1" runat="server">
+                                    </asp:DropDownList>
+&nbsp;<input type="text" placeholder="" class="form-control">
+
+                                    
+<div>
+    <div align ="Left">  <asp:Button ID="btnDownload" runat="server" Text="Download" /> </div>
+           
+    				<%--<button type="button" class="btn btn-lg btn-info">Search</button>	--%>
+
+ 
+
+    </div>
+
+
+							</div>
+
+							
+						</div>					
+						
+	<%--				<button type="button" class="btn btn-lg btn-info">Submit</button>	--%>				
+					</div>
+				</form>
+				</div>
+	</div>
+	</div>
+    </form>
+</body>
+</html>
